@@ -1,11 +1,12 @@
 # java-homework
 
 
-JAVA 과제
-
-1. 다음 코드를 실행하면 출력 결과로 5를 기대했는데 4가 출력되었습니다. 어디에서 잘못 작성된 것일까요?
-
-
+JAVA 과제🔥🔥
+<br><br>
+---
+<h2>1. 다음 코드를 실행하면 출력 결과로 5를 기대했는데 4가 출력되었습니다. 어디에서 잘못 작성된 것일까요?</h2>
+<pre>
+<code>
 public class test1 {
     public static void main(String[] args) {
 
@@ -16,14 +17,20 @@ public class test1 {
         System.out.println(var4);
     }
 }
-
+</code>
+</pre>
 정수끼리의 연산은 정수 값만 나타내기 때문에 두 정수중 하나는 실수로 바꿔주어야 소수점 값을 나타낼 수 있습니다.
-
+<pre>
+<code>
 double var3=var1/var2; ---> double var3=var1/ (double) var2;
+</code>
+</pre>
+<br><br>
+---
 
-
-2. 다음 코드를 실행했을 때 출력 결과는 무엇입니까? (증감연산자에 대해 알아보세요!)
-
+<h2>2. 다음 코드를 실행했을 때 출력 결과는 무엇입니까? (증감연산자에 대해 알아보세요!)</h2>
+<pre>
+<code>
 public class test2 {
     public static void main(String[] args) {
         int x=10;
@@ -33,11 +40,14 @@ public class test2 {
         // 이후 결과값 x=11, y=19, z=31
     }
 }
-
+</code>
+</pre>
 ++이나 --이가 뒤쪽으로 들어가면 연산이 끝난 이후 개인적으로 연산하게 됩니다.
-
-3. while문과 Math.random() 메소드를 이용해서 2개의 주사위를 던졌을 때 나오는 눈을 (눈1, 눈2) 형태로 출력하고, 눈의 합이 5가 아니면 계속 주사위를 던지고, 눈의 합이 5이면 실행을 멈추는 코드를 작성해보세요. 눈의 합이 5가 되는 조합은 (1,4), (4,1), (2,3), (3,2)입니다.
-
+<br><br>
+---
+<h2>3. while문과 Math.random() 메소드를 이용해서 2개의 주사위를 던졌을 때 나오는 눈을 (눈1, 눈2) 형태로 출력하고, 눈의 합이 5가 아니면 계속 주사위를 던지고, 눈의 합이 5이면 실행을 멈추는 코드를 작성해보세요. 눈의 합이 5가 되는 조합은 (1,4), (4,1), (2,3), (3,2)입니다.</h2>
+<pre>
+<code>
 public class test3 {
     public static void main(String[] args) {
         int num1 = 0;  // 정수 값을 지정
@@ -49,3 +59,5 @@ public class test3 {
         }
     }
 }
+</code>
+</pre>
